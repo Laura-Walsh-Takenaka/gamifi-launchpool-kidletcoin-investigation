@@ -1,0 +1,387 @@
+{
+  "edition": "2026-09-25",
+  "repository_file_count": 77,
+  "pdf_reports": 14,
+  "supplemental_notes": 149,
+  "evidence_records": 17719,
+  "evidence_files_in_archives": 17767,
+  "evidence_archives": 9,
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/correction-or-rebuttal.md",
+      "bytes": 1200,
+      "sha256": "3a2c2d96d13374e2cd669c1b13503563a95983f85149a77da3bc8a23415ea949"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/evidence-submission.md",
+      "bytes": 1342,
+      "sha256": "249d3985d2cd78bdc1cae42a0edf2ce43803d7f2fc4d979be2eb300f3ac2b49e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/verification-task.md",
+      "bytes": 962,
+      "sha256": "9cbd7346838e3264cc210fe9302b2197c9b02a7a3934956bf5ab39fec3e31274"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 1067,
+      "sha256": "435377920a06c61cb139647deaeab84d7fb32de484fd598d89f2ecf285de7ce3"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 197,
+      "sha256": "874300b3bac0b136e0b9911061ddcb20b591c8a2b80f4350052cad02efe8d73b"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 6986,
+      "sha256": "a7fc71faf5c947c731e5afeb4f9a75f2b14bda3c41e16f9b1681c7ae7abc3b5e"
+    },
+    {
+      "path": "GITHUB_ANNOUNCEMENT.md",
+      "bytes": 4511,
+      "sha256": "8da1399e2d75d385d5ff3cbeb301f2b9788bd5351d4ed23277dbd87848e5458f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8265,
+      "sha256": "2af184ae3fa2d90577b9614aa2bdafa8a9cb4ed983d4befc109378ba5974144e"
+    },
+    {
+      "path": "RESEARCH_QUESTIONS.md",
+      "bytes": 13930,
+      "sha256": "3a605c4766dfa513a114f4fc5690ce10e8464eca546162679ddfd17ddfad3c14"
+    },
+    {
+      "path": "RIGHTS_AND_SOURCES.md",
+      "bytes": 3382,
+      "sha256": "ae0318ce6fd3178b2fa65a58d00905f7fe6d646233e6a43276d7b14e771053aa"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 991,
+      "sha256": "edf94c421b366953c539f0316712c013d656aea78231e7169f7a4c652046a4b5"
+    },
+    {
+      "path": "data/Research_Paper_GamiFi_Ledger.json",
+      "bytes": 11089174,
+      "sha256": "2cb7507532da0f035acd46a4ae5c32964108ffe883439537e5fecc1f7dc7a413"
+    },
+    {
+      "path": "data/Research_Paper_GamiFi_Ledger_Reconciliation.csv",
+      "bytes": 7427,
+      "sha256": "79c2f58931f5f690837a5e7e12c1fc1e1b9bb697e4254b5f9684d8117768dd2f"
+    },
+    {
+      "path": "data/Research_Paper_GamiFi_Ledger_Sources.csv",
+      "bytes": 5082,
+      "sha256": "c3da32e0e6858ed667e1fa393a7225704a1b97c7b73e97801c8b2768f14761bd"
+    },
+    {
+      "path": "data/Research_Paper_GamiFi_Ledger_Summary.csv",
+      "bytes": 20249,
+      "sha256": "667cfdf5d64ac30c2a15426d24d6a2e78acfca07984f45e8f97ca8b71962a7b2"
+    },
+    {
+      "path": "data/Research_Paper_GamiFi_Ledger_Transfers.csv",
+      "bytes": 223360,
+      "sha256": "090b21ac3190e9b44a8828d777b97027218d401bfac34b6ada3680a9fde4b98e"
+    },
+    {
+      "path": "data/Research_Paper_GamiFi_Ledger_Vesting_records.csv",
+      "bytes": 3644239,
+      "sha256": "02259265b05f0696aad96970f4a810d042a53c940c3757fc48f3a862ab37882c"
+    },
+    {
+      "path": "evidence/README.md",
+      "bytes": 4840,
+      "sha256": "bbd648b5d548e559a8ad5a77a608f1768cd8f4a228a9ec4dcc2b82d0e6c10608"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_Archives.json",
+      "bytes": 1653,
+      "sha256": "69fa1dbf557b6c5e4dcd05ec337f82288ce7184bdbf4451ff4f872ace8571c74"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_Catalog.csv",
+      "bytes": 4810856,
+      "sha256": "a1bf9b292e77aa99edd25b37b0a46124b012f023de3ff41a9ffc72634f1a95e9"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_Catalog.json",
+      "bytes": 7182100,
+      "sha256": "39e281677c1af7bcd14f530572c614acaf57ade4f991284b76ad1c0a44f8cbbb"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_GamiFi_Part_01.tar.xz",
+      "bytes": 14337612,
+      "sha256": "de673c870a1943a1948a26575da6efefaf56a2f8585d9cea7b6b4caa2eb27672"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_GamiFi_Part_02.tar.xz",
+      "bytes": 13621964,
+      "sha256": "a446f5559b5b3b3dc7adb69b980cfcf4ee94302a45d3bb0d0096dde0c0e411b5"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_GamiFi_Part_03.tar.xz",
+      "bytes": 13915268,
+      "sha256": "39c41eec83246c73dfd3546d30ccf98984952db9df233f1cbb3916ca2737e859"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_GamiFi_Part_04.tar.xz",
+      "bytes": 11613748,
+      "sha256": "1f7bf62dc55c1f261102161f1263ec6a682e93c1bddb6e45b4f771fb532b6493"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_KidletCoin_NEM_Part_01.tar.xz",
+      "bytes": 2214592,
+      "sha256": "e070a6bcd8975f2604c21aa30af03ac7c075be681d5ebc246c338838dd0769cc"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_Launchpool_Corporate_Part_01.tar.xz",
+      "bytes": 1448792,
+      "sha256": "6d80ce27d15fdf7c1ffaeb5fd766e61278817d53f8acf03b50f279659952d364"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_Locations.csv",
+      "bytes": 2796298,
+      "sha256": "39e9e5a8076b5664ce9ea8a33d8fa8f59f6d3020ebda09ba64ca4239747e83dd"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_Related_Crypto_Projects_Part_01.tar.xz",
+      "bytes": 275972,
+      "sha256": "0c7eefbc95024542df183d6d915eb05c5e155e7a3f1a26b432a3d76f52bba5ea"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_ShibaFriend_Part_01.tar.xz",
+      "bytes": 1216292,
+      "sha256": "2f5baed51ff85ff53350e38e51f8fe7312a48eb719ca87a3d15bde027df2ce2e"
+    },
+    {
+      "path": "evidence/Research_Paper_Evidence_Summary.json",
+      "bytes": 4813,
+      "sha256": "f97da5edbdb4427adc46e741e2aa67873d61fd9769d1a2572f8e16496dddabe3"
+    },
+    {
+      "path": "evidence/Research_Paper_Launchpool_Followup_2026-09-07.tar.xz",
+      "bytes": 4603764,
+      "sha256": "843a04aa8410d5cf26cd23901f9c3651c8a450fde3b84fbb40e7624c74d4bbdf"
+    },
+    {
+      "path": "network/Research_Paper_Network_Guide.md",
+      "bytes": 3299,
+      "sha256": "6138103fd8a4dee2f113c4bde01155a264d36c14914343db3918dfec628ea5d8"
+    },
+    {
+      "path": "network/Research_Paper_Public_Crypto_Network.html",
+      "bytes": 14916776,
+      "sha256": "e3b91f7989ac2c2e9c33e39fa8f657c681567f0e4765bfdde925515a3b09ae9b"
+    },
+    {
+      "path": "network/Research_Paper_Public_Crypto_Network.json",
+      "bytes": 18344732,
+      "sha256": "66d5a36e8478d25f6510dbb972df44b54cd737a476324f1452f771a27ad74681"
+    },
+    {
+      "path": "reports/README.md",
+      "bytes": 2876,
+      "sha256": "618937dc71393c0ebe227b94dd5c648c384de2a3727870f7d10e29f6bc08cea6"
+    },
+    {
+      "path": "reports/Research_Paper_BVI_Records_Access_GamiFi_2082070.md",
+      "bytes": 37144,
+      "sha256": "c100ae5715b2d7d17cb747d7f845856593e95ef800c99581228687a7353846a7"
+    },
+    {
+      "path": "reports/Research_Paper_BVI_Records_Access_GamiFi_2082070.pdf",
+      "bytes": 105471,
+      "sha256": "986c169a9af01bf80cb05acff0f25515f0e8207c1f50afa6589e611406940ab8"
+    },
+    {
+      "path": "reports/Research_Paper_GamiFi_Exchange_Links.md",
+      "bytes": 174005,
+      "sha256": "f33f8dd81655d5072d4e3d8d150e75a58a03b781260f1203febb1dadea497a3f"
+    },
+    {
+      "path": "reports/Research_Paper_GamiFi_Exchange_Links.pdf",
+      "bytes": 357948,
+      "sha256": "68afdc589b501ffc272d8f516fca4b2de681d37cc36b019d0606f5a1f43b400e"
+    },
+    {
+      "path": "reports/Research_Paper_GamiFi_Master_Investigation.md",
+      "bytes": 174625,
+      "sha256": "ebb505be1529338ce1c82cd34d955c00de469e76113ab3aa8571d2f1035020d8"
+    },
+    {
+      "path": "reports/Research_Paper_GamiFi_Master_Investigation.pdf",
+      "bytes": 256192,
+      "sha256": "dba3efb107878ea8662023951c790365a1a5db761b68ab7df02655b8e880fb76"
+    },
+    {
+      "path": "reports/Research_Paper_GamiFi_Project_History_2026-09-05.md",
+      "bytes": 54444,
+      "sha256": "0a5fa1bc41851f042fb04e77585b5d265aeb202501af2978138227922bf0a220"
+    },
+    {
+      "path": "reports/Research_Paper_GamiFi_Project_History_2026-09-05.pdf",
+      "bytes": 97868,
+      "sha256": "b3f55d1b08cfeffbd5bf572457cda618fb12c651b1342bc0cb203e405cbe110f"
+    },
+    {
+      "path": "reports/Research_Paper_GamiFi_Project_Withdrawals.md",
+      "bytes": 41841,
+      "sha256": "6c1b51dded4d2b74235daf0902b1fd245b4ecacc49118f081d624295448dbfd9"
+    },
+    {
+      "path": "reports/Research_Paper_GamiFi_Project_Withdrawals.pdf",
+      "bytes": 116175,
+      "sha256": "0fb555837228dcd90750f9cacf3f76bc100671a29e7a93899fd0eb3694d36cf3"
+    },
+    {
+      "path": "reports/Research_Paper_Kaskade_MegaFans_and_Cardano.md",
+      "bytes": 38903,
+      "sha256": "cd328fe0920a294261df7ee6f2d410d411874a2b6fcf6dc3c61d587cce187b92"
+    },
+    {
+      "path": "reports/Research_Paper_Kaskade_MegaFans_and_Cardano.pdf",
+      "bytes": 94657,
+      "sha256": "06fcd5d7436e54da7c491dcea1feea559aecb4d5aa9c5cb43befc4f6eb02f932"
+    },
+    {
+      "path": "reports/Research_Paper_KidletCoin_Onchain_History.md",
+      "bytes": 92082,
+      "sha256": "19b0674a321acb68d21e56a65ab0f05b604b5de0f30f85125428e9234861ec0d"
+    },
+    {
+      "path": "reports/Research_Paper_KidletCoin_Onchain_History.pdf",
+      "bytes": 685631,
+      "sha256": "3d0293d3a7f61514df6eac6e8c4ab8c1259933e0d3e8849315f0ea19b8d4184a"
+    },
+    {
+      "path": "reports/Research_Paper_KidletCoin_and_NEM.md",
+      "bytes": 136739,
+      "sha256": "c7c031a209e5115b56b9c2a2200b91cfbe81fa899bc9f4fb1c96bd762aff4a72"
+    },
+    {
+      "path": "reports/Research_Paper_KidletCoin_and_NEM.pdf",
+      "bytes": 210492,
+      "sha256": "7ff9f37f1fa5c57c677676de2ba9b23cb420ce44621d1e2f01c4238928aa820a"
+    },
+    {
+      "path": "reports/Research_Paper_Launchpool_Followup_2026-09-07.md",
+      "bytes": 105727,
+      "sha256": "d1ae9737515ce4dabe91b217c75fdf3a9694c2bdcc69b77877eb19fc9873a9d2"
+    },
+    {
+      "path": "reports/Research_Paper_Launchpool_Followup_2026-09-07.pdf",
+      "bytes": 168164,
+      "sha256": "57d4e936001d6d95dcfc76f1899df21b86d26ab32543cfa8a1580b678738313b"
+    },
+    {
+      "path": "reports/Research_Paper_Launchpool_Ownership_and_Deeds.md",
+      "bytes": 48654,
+      "sha256": "ef14051446382fb93a039c7897a709b5cdc02abffc43c5ad9c289bcb2381fb58"
+    },
+    {
+      "path": "reports/Research_Paper_Launchpool_Ownership_and_Deeds.pdf",
+      "bytes": 122121,
+      "sha256": "060793f63a71c17a050c567e028407d17d77985bc438fe35f7ff4b82c11ad246"
+    },
+    {
+      "path": "reports/Research_Paper_Laura_Attribution_Followup.md",
+      "bytes": 28083,
+      "sha256": "1606f075dde7ef02fe849ae6bcb4942b8bd8efc318a5f0570f2be5518bba117a"
+    },
+    {
+      "path": "reports/Research_Paper_Laura_Attribution_Followup.pdf",
+      "bytes": 100824,
+      "sha256": "7bf24db289b7f96b1a2572614530934a40be2ca572b333ef60ea3e2c8710d8d5"
+    },
+    {
+      "path": "reports/Research_Paper_Laura_Walsh_Takenaka_Crypto_Roles.md",
+      "bytes": 82498,
+      "sha256": "404019597d84b85d5c604016e33ab577156e4ab63d4f58c73e8dadf85fad4873"
+    },
+    {
+      "path": "reports/Research_Paper_Laura_Walsh_Takenaka_Crypto_Roles.pdf",
+      "bytes": 145536,
+      "sha256": "93b09b18242987274c679d388d63fbdde98a221beb49cf53f06f4df4823f1553"
+    },
+    {
+      "path": "reports/Research_Paper_Panama_Corporate_Records.md",
+      "bytes": 19482,
+      "sha256": "eab8d08d27b45f4153fd13396e39bc788787725e388518445eedba170363a2ab"
+    },
+    {
+      "path": "reports/Research_Paper_Panama_Corporate_Records.pdf",
+      "bytes": 87097,
+      "sha256": "d34b215ffde4ae55bfaf96fa8d5e343d8e1850267b0147ca7b48a79fff93e302"
+    },
+    {
+      "path": "reports/Research_Paper_ShibaFriend_Claims_Review.md",
+      "bytes": 41529,
+      "sha256": "e5497cb32b740ca94a2dddd0fe3d5462f015c3dc17a8897940c908798194db89"
+    },
+    {
+      "path": "reports/Research_Paper_ShibaFriend_Claims_Review.pdf",
+      "bytes": 111941,
+      "sha256": "99e97bf144df53e116073ac9b97ecd1e6855b54426a6ff29bc8b8090a1f80023"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 1120,
+      "sha256": "b50f78c44bc6d823870017d31bd114385dedd4e033c85927f97ca352a388c519"
+    },
+    {
+      "path": "research/Research_Paper_BVI_Records_Access_GamiFi_2082070_2026-09-06.md",
+      "bytes": 36763,
+      "sha256": "32007a36af8f22c8ddb0d1c580a2445036493ba5dc26c5677403e9fe77015d91"
+    },
+    {
+      "path": "research/Research_Paper_Evidence_Register_2026-09-07.json",
+      "bytes": 144977,
+      "sha256": "b4ac12614e96877ff8c879e8d7d10d07f5b98694331f803b0f502f707810475a"
+    },
+    {
+      "path": "research/Research_Paper_Evidence_Status_2026-09-06.json",
+      "bytes": 58089,
+      "sha256": "afad1625176769bfde33d3219ef73a05f9c8865c09d9c9811c06fbc5f43dc2e3"
+    },
+    {
+      "path": "research/Research_Paper_GamiFi_Master_Investigation_2026-09-06.md",
+      "bytes": 138837,
+      "sha256": "5ed8f5cdbbbb42c61f40273869cfaf563ff3b9aae34c1dcced22b5f52d370c06"
+    },
+    {
+      "path": "research/Research_Paper_GamiFi_Public_Filings_Check_2026-09-06.md",
+      "bytes": 11138,
+      "sha256": "62ac6ad932c44d5c59a52739202baf80d7183f1bfbef3fdac7c1cd96160e1ce7"
+    },
+    {
+      "path": "research/Research_Paper_Global_Archive_Register_2026-09-06.json",
+      "bytes": 70657,
+      "sha256": "e3b31cba7f434b2faa80ee9b1bc4ef66d84e810780347d49944ab4fc3f057629"
+    },
+    {
+      "path": "research/Research_Paper_Global_Archive_Research_2026-09-06.md",
+      "bytes": 131676,
+      "sha256": "1072689887c8b3d742ed13cfac2a87069600cd46049b5b98145dc541e7547841"
+    },
+    {
+      "path": "research/Research_Paper_Missing_Evidence_Research_2026-09-06.md",
+      "bytes": 137389,
+      "sha256": "5d6793fd2c32256825bcc35e023016b42bd5cf7f2db38ed37bb676f116429483"
+    },
+    {
+      "path": "research/Research_Paper_Supplemental_Notes.zip",
+      "bytes": 789618,
+      "sha256": "cd857d34aef74cf6e8b16d31c39fa60319e1d4088fa0fc2c7d8e5b925cb31325"
+    },
+    {
+      "path": "research/Research_Paper_Supplemental_Notes_Index.json",
+      "bytes": 47272,
+      "sha256": "3698d3c83f9fed719bc0482edae52681e0e95bb07fd821e228712202a158b47f"
+    }
+  ],
+  "note": "Generated for the 25 September 2026 public crypto research package. SHA-256 values establish byte identity, not source authenticity or factual accuracy."
+}
