@@ -1,3 +1,47 @@
+**GamiFi / Launchpool: suspected investor fraud, contract manipulation and 44 million GMI removed**
+
+**Contract code was temporarily changed. Maximum spending permissions were granted. The original code was restored—but the permissions remained. Those permissions were then used to remove 44 million GMI from contracts that still recorded investor obligations.**
+
+That is the central finding we are opening to independent scrutiny.
+
+This repository investigates **suspected investor fraud involving smart-contract manipulation**, alongside research into GamiFi/GMI, Launchpool, Laura Takenaka/Walsh’s documented project roles, KidletCoin, NEM and separately identified related projects.
+
+The allegation deserves examination at the code and transaction level: **were these mechanisms used deliberately to defraud investors, who authorized their use, and who ultimately benefited?**
+
+**Start with the November 2022 transactions.**
+
+The research reconstructs this sequence on **5 November 2022**:
+
+1. **Temporary contract upgrades granted maximum GMI spending allowances**, followed by restoration of the original implementations.
+2. **44 million GMI were removed:** 14 million from Launchpool vesting and 30 million from two staking contracts.
+3. **The tokens were sold for approximately 5,174.29 BUSD**, while recorded investor obligations remained.
+4. **The withdrawal route bypassed the staking code’s ordinary principal-protection calculation.** Restoring the original code did not revoke the spending permissions.
+
+This gives independent reviewers something specific to test: **the upgrade transactions, temporary implementation, surviving allowances, token withdrawals and resulting backing shortfalls.** Looking only at the restored contract code would miss the earlier permission change.
+
+Start with the GamiFi master investigation’s **“November control and removal mechanism”** section and the companion transfer review. Check the preserved receipts, code comparisons and accounting against the primary records.
+
+**Help establish responsibility.**
+
+The transaction sequence establishes a technical mechanism and its accounting consequences. Identifying the people behind the keys—and establishing their authority, knowledge and intent—requires further evidence.
+
+Laura’s public statements and documented roles are examined separately. Her replacement as CEO was announced on **1 September 2022**, before the November withdrawals. A public title alone does not identify a transaction signer or establish personal receipt.
+
+We welcome developers, blockchain investigators, journalists and affected participants who can:
+
+- Reproduce or challenge the contract analysis.
+- Trace the withdrawals and subsequent proceeds.
+- Supply dated custody, handover, authorization or settlement records.
+- Compare investor promises with the contracts’ actual behaviour.
+
+The repository also retains findings that corrected earlier suspicions: matched original FOMO refunds, reconciled original GAMI allocations and backing, and later ShibaFriend repayment findings. The approximately **63,002 BUSD** project-withdrawal subtotal is **not an established theft or loss figure**.
+
+Read `RESEARCH_QUESTIONS.md` and `CONTRIBUTING.md`, then open a verification task, evidence submission or correction. Include exact sources, dates and reproducible steps. Keep private identifying information and children’s information out of submissions.
+
+The main research snapshot is **5–7 September 2026**; this repository edition was prepared on **20 September 2026**.
+
+**Inspect the code. Reproduce the transactions. Help establish who controlled the mechanism—and why it was used.**
+
 # Research Paper — Public Crypto Research
 
 **Laura Takenaka / Walsh · GamiFi · Launchpool · KidletCoin · NEM**
