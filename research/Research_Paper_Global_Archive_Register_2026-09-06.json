@@ -1,0 +1,966 @@
+{
+  "report_id": "RESEARCH-GLOBAL-ARCHIVE-2026-0906",
+  "date_utc": "2026-09-06",
+  "baseline_report": "RESEARCH-GAPS-2026-0906",
+  "status_definitions": {
+    "open": "The requested decisive record remains missing; public sources checked within documented bounds.",
+    "narrowed": "A component, provenance link or records-access route advanced; compound item remains unresolved.",
+    "closed": "All parts resolved within the stated scope."
+  },
+  "counts": {
+    "open": 25,
+    "narrowed": 28
+  },
+  "status_note": "Four included items advanced from open to narrowed in this historical pass: EV-024, EV-034, EV-048 and EV-050. Other prior labels retained. No compound item was marked fully closed.",
+  "items": [
+    {
+      "id": "EV-001",
+      "area": "human",
+      "title": "Identify the people behind the GamiFi control keys",
+      "status": "open",
+      "finding": "Dated technical handovers retained from prior evidence; exact-address public searches did not identify the human custodians or transaction instructions.",
+      "remaining": "Dated key-assignment and custody registers, handover acknowledgments, signatory mandates and approval instructions for deployer 3e0f…7199, owner f27f…c27b, approval signer 538a…7c7, withdrawal signer afd9…c3f9, former Safe owner 7e01…7445 and executor 343c…235e. Cover 19 and 29 September, 4–5 November 2022, including the temporary upgrade, allowance, 44m withdrawal and sale. Obtain custody attestations, never secret keys.",
+      "custodian": "Verified GamiFi corporate record holder; developers; historical custody contractors; relevant signatories.",
+      "source_urls": [
+        "https://bscscan.com/tx/0x4af5d1dccd4008191749c6f193b552edd4e2d10d96028661eed4d508b8901a63"
+      ],
+      "report_chapter": "human",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Two additional membership-contract ownership transfers verified, 28 April and 19 September 2022; human assignments and instructions remain missing.",
+      "deeper_pass_chapter": "human"
+    },
+    {
+      "id": "EV-002",
+      "area": "human",
+      "title": "Identify the 120m private beneficiary and its entitlement",
+      "status": "open",
+      "finding": "All120m claims were already reconciled. Beneficial owner, consideration and category5 entitlement remain undocumented.",
+      "remaining": "Allocation/subscription agreement, consideration paid, beneficiary and platform-account mapping, corporate approval, assignment and settlement records for 3604…b4d4 and the 18 January 2022 funding transaction ac3935…5787. Resolve the commercial meaning of category 5 from business records.",
+      "custodian": "GamiFi and allocation administrator; the documented investor or assignee once identified.",
+      "source_urls": [
+        "https://bscscan.com/tx/0xac39350f0f652c95dfb73e0cd8f2028a2c8aa34a51d081374a6c850647625787"
+      ],
+      "report_chapter": "human",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Archived client code associates registered users and wallet addresses; no record links the private beneficiary to a registered user or establishes entitlement.",
+      "deeper_pass_chapter": "human"
+    },
+    {
+      "id": "EV-003",
+      "area": "human",
+      "title": "Obtain MEXC deposit, customer and execution records",
+      "status": "narrowed",
+      "finding": "Current MEXC60-day formal preservation route and restricted LEORS process reverified; no historical customer credit, fill or withdrawal disclosed.",
+      "remaining": "Historical custody and deposit-account assignment for four GMI deposits: 5m on 4 November 2022, 5m on 8 November, 5m on 8 December, and 3m on 21 January 2023. Request credits/reversals, orders/fills, exchange-ledger-linked withdrawals, customer identity and account authority actually retained, plus retention/preservation status. Use the four complete hashes in the prepared brief.",
+      "custodian": "MEXC historical records custodian.",
+      "source_urls": [
+        "https://www.mexc.com/support/article/law-enforcement-guidelines-4403594593434"
+      ],
+      "report_chapter": "human",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "No new exchange customer ledger. The recovered MEXC interview is a publication record, not a deposit-credit record.",
+      "deeper_pass_chapter": "human"
+    },
+    {
+      "id": "EV-004",
+      "area": "human",
+      "title": "Obtain FixedFloat’s historical order and payout mapping",
+      "status": "narrowed",
+      "finding": "FixedFloat documents exact incoming/payout/refund fields in an order record. Retrieval needs authenticated order identifiers; no2022 order or payout matched.",
+      "remaining": "First confirm who controlled 4727…7c95 and intermediary 96f0…aeb6 on 5 November 2022. Match the two exact 5,174-BUSD transfers at 07:15:11 and 07:15:32 UTC to any order, credit or refund. Obtain output asset, network, amount, payout address/hash and any customer/verification information actually retained.",
+      "custodian": "FixedFloat’s historical operator and order-record custodian.",
+      "source_urls": [
+        "https://ff.io/api",
+        "https://ff.io/privacy-policy",
+        "https://ff.io/support"
+      ],
+      "report_chapter": "human",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "No new historical order or payout mapping recovered.",
+      "deeper_pass_chapter": "human"
+    },
+    {
+      "id": "EV-005",
+      "area": "human",
+      "title": "Identify onward-wallet owners and the purpose of returning funds",
+      "status": "open",
+      "finding": "No authenticated human or business ownership declaration found for f4f8/ba4d. Further chain history is separately incomplete.",
+      "remaining": "Custody, recipient-assignment, settlement and business-purpose records for f4f8…b1d7 and ba4d…bf53; include 12 BNB returned to the private beneficiary, the 0.5-BNB transfers to 78d0…14c3 and 35b1…b5f3, and the 6,590 BUSD plus 25,906.285983337104699148 USDT paid to ba4d…bf53.",
+      "custodian": "Identified wallet custodians, counterparties and their accounting record holders.",
+      "source_urls": [
+        "https://bscscan.com/address/0xf4f86e37815217ed73ae817a4e5164d56315b1d7"
+      ],
+      "report_chapter": "human",
+      "baseline_status": "open",
+      "deeper_pass_finding": "New replenisher identified on-chain; six consecutive outgoing transactions and additional onward-wallet activity through August 2025 verified. Human ownership/purpose remain missing.",
+      "deeper_pass_chapter": "human"
+    },
+    {
+      "id": "EV-006",
+      "area": "human",
+      "title": "Establish any actual Cayman bank or personal receipt",
+      "status": "open",
+      "finding": "No actual Cayman bank account or Laura personal receipt identified. A bank leg must first be established rather than presumed from BUSD movements.",
+      "remaining": "Authenticated account-opening and beneficial-owner files, bank/custody mandates, statements, wire/payment references, named originator and beneficiary, and a reconciliation tying any account to the exact dated project or exchange transfers.",
+      "custodian": "The bank/custodian only once identified; relevant company treasurer, fund administrator or authorized account holder.",
+      "source_urls": [],
+      "report_chapter": "human",
+      "baseline_status": "open",
+      "deeper_pass_finding": "No bank account, bank settlement or personal receipt identified.",
+      "deeper_pass_chapter": "human"
+    },
+    {
+      "id": "EV-007",
+      "area": "human",
+      "title": "Identify the recipients and entitlement for seven project withdrawals",
+      "status": "narrowed",
+      "finding": "Archived v1 app maps IDs6 GAMI,7 Time Raiders,8 FOMO Lab,9 Shibafriend; four withdrawals sum60639.317377359365034843 BUSD. Recipient humans, entitlement and bank settlement remain open. Later captures supply IDs8/9; original IDs1/3/4 remain unassigned.",
+      "remaining": "Project-name mapping for IDs 1, 3, 4, 6, 7, 8 and 9; funding agreements, invoices, settlement schedules, fees, entitlement and recipient custody records. Reconcile the seven withdrawals totaling 63,001.817377359365034843 BUSD, especially repeated recipient 56aa…9aa2 and recipient d2b8…6171.",
+      "custodian": "GamiFi; hosted issuers; recipient wallet holders; accountants.",
+      "source_urls": [
+        "https://web.archive.org/web/20220921100110id_/https://app.gamifi.gg/_nuxt/6e7648d.js",
+        "https://web.archive.org/web/20220921100142id_/https://app.gamifi.gg/_nuxt/c2c9d04.js"
+      ],
+      "report_chapter": "human",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "The original project contract returns the archived membership address at the ID-4 withdrawal block. Commercial attribution and final settlement remain unresolved.",
+      "deeper_pass_chapter": "human"
+    },
+    {
+      "id": "EV-008",
+      "area": "corporate",
+      "title": "Verify the exact GamiFi legal entity",
+      "status": "narrowed",
+      "finding": "Visually rechecked the original supplied BVI public-search screenshot: Gamifi Limited, 2082070 is already established as a matching registry result. Newly verified controlled beneficial-ownership application route exists; this is an access-path improvement, not new ownership disclosure.",
+      "remaining": "Official incorporation date, dated status/registered-agent/director/member history; historical beneficial ownership and operational authority. The 12 November 2021 date is still commercial-directory evidence.",
+      "custodian": "BVI registry; the verified registered agent once identified.",
+      "source_urls": [
+        "https://www.bvifsc.vg/searches-bvi-registered-entities",
+        "https://www.bvifsc.vg/sites/default/files/revised_bo_guidelines_final_version_for_publication_02.01.26.pdf"
+      ],
+      "report_chapter": "corporate",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "No new official incorporation certificate, registered agent or ownership record for GamiFi; prior BVI 2082070 identification retained.",
+      "deeper_pass_chapter": "corporate",
+      "historical_source_titles": [
+        "Research_Paper_GamiFi_BVI_Registry_Result.jpg"
+      ]
+    },
+    {
+      "id": "EV-009",
+      "area": "corporate",
+      "title": "Verify offshore Launchpool and its relationship to the UK company",
+      "status": "open",
+      "finding": "BVI candidate Launchpool Ltd 2054898 remains a directory candidate. UK 12992979 filing history reconfirmed; no document joins the candidate, historic website issuer and UK company.",
+      "remaining": "Official BVI history and contemporaneous executed contracting/entity bridge; intercompany share, service, IP and accounting records.",
+      "custodian": "BVI registry/agent; Launchpool contracting and corporate records; UK corporate record holder.",
+      "source_urls": [
+        "https://i-bvi.com/company/launchpool-ltd_1123236",
+        "https://find-and-update.company-information.service.gov.uk/company/12992979/filing-history"
+      ],
+      "report_chapter": "corporate",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Independent October 2021 / February 2022 terms recovered in Portugal; an earlier printed revision creates a specific dating ambiguity against the candidate BVI incorporation.",
+      "deeper_pass_chapter": "corporate",
+      "historical_source_titles": [
+        "LAUNCHPOOL_OWNERSHIP_AND_LAURA_2026-09-06.md"
+      ]
+    },
+    {
+      "id": "EV-010",
+      "area": "corporate",
+      "title": "Establish Asociados Carajo’s issued and beneficial ownership",
+      "status": "narrowed",
+      "finding": "SSNF official source identifies RUBF as the private beneficial-owner register receiving resident-agent data. September 2026 official indexed authority-request instructions surfaced with full-PDF retrieval blocked. No Carajo owner disclosed.",
+      "remaining": "Carajo 155733022 stock register, allotments, transfers, underlying controller and resident-agent client records; dated RUBF information through authorized authority access.",
+      "custodian": "Company and its stock-register custodian; former agent Quijano & Asociados; successor resident agent.",
+      "source_urls": [
+        "https://ssnf.gob.pa/Portal/",
+        "https://www.gacetaoficial.gob.pa/storage/gacetas/2026/09/30602/GacetaNo_30602_20260901.pdf"
+      ],
+      "report_chapter": "corporate",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "No issued-share or beneficial-owner register obtained; supplied Panama documents remain controlling.",
+      "deeper_pass_chapter": "corporate",
+      "historical_source_titles": [
+        "Research_Paper_PANAMA_FILES_EVIDENCE_2026-09-06.zip"
+      ]
+    },
+    {
+      "id": "EV-011",
+      "area": "corporate",
+      "title": "Identify who voted for the February 2025 Panama changes",
+      "status": "open",
+      "finding": "No evidence beyond the earlier minutes identifies voting shareholders at the 7 February 2025 meeting.",
+      "remaining": "Company minute-book attendance, proxy and share-voting records; instruction chain through chair Persis Manfred Sarmiento, secretary Omar Camargo and formalizing agent Mario Ernesto Garcia de Paredes Estripeaut; deed 10116/entry 187609-2025.",
+      "custodian": "Asociados Carajo; minute-book/stock-register custodian; resident agent and filing notary.",
+      "source_urls": [],
+      "report_chapter": "corporate",
+      "baseline_status": "open",
+      "deeper_pass_finding": "No new proxies, voting-rights schedule or instructions for the 2025 Panama changes.",
+      "deeper_pass_chapter": "corporate",
+      "historical_source_titles": [
+        "LAUNCHPOOL_OWNERSHIP_AND_LAURA_2026-09-06.md",
+        "Research_Paper_PANAMA_FILES_EVIDENCE_2026-09-06.zip"
+      ]
+    },
+    {
+      "id": "EV-012",
+      "area": "corporate",
+      "title": "Resolve Linford’s 2018–2023 legal status",
+      "status": "open",
+      "finding": "Exact-name/number and restoration searches found no new restoration record. Prior 2018 Gazette event retained without assuming 2023 status.",
+      "remaining": "Registry/certificate/status histories, including restoration, for Linford 1943018 and 1943021 from 1 November 2018 through 31 January 2023; registered-agent changes.",
+      "custodian": "BVI registry and relevant registered agents.",
+      "source_urls": [
+        "https://eservices.gov.vg/gazette/sites/eservices.gov.vg.gazette/files/governmentandstatutorynotices/%23102%2011th%20December%2C%202018%20EXTRA.pdf",
+        "https://www.bvifsc.vg/searches-bvi-registered-entities"
+      ],
+      "report_chapter": "corporate",
+      "baseline_status": "open",
+      "deeper_pass_finding": "No new Linford restoration or material-date status instrument.",
+      "deeper_pass_chapter": "corporate"
+    },
+    {
+      "id": "EV-013",
+      "area": "corporate",
+      "title": "Trace SCR Advisors and the relevant dated ownership chains",
+      "status": "open",
+      "finding": "New free native Gibraltar UBO search returned no SCR ADVISORS match; broaderSCR returned 7 differently named entities. GLEIF query completed withHTTP 200 and zero matches. Neither result establishes nonexistence or ownership.",
+      "remaining": "Gibraltar registry identification and dated annual returns/member records for SCR ADVISORS LIMITED; own company and nominee/controller records around 3 November 2020.",
+      "custodian": "Gibraltar registry; SCR Advisors and relevant company secretaries or administrators.",
+      "source_urls": [
+        "https://portal.egov.gi/services/ubo",
+        "https://ubosearch.egov.gi/"
+      ],
+      "report_chapter": "corporate",
+      "baseline_status": "open",
+      "deeper_pass_finding": "No new SCR Advisors shareholder chain.",
+      "deeper_pass_chapter": "corporate",
+      "historical_source_titles": [
+        "gib_scr_ubo_search.txt",
+        "gib_ubo_SCR_broad.txt",
+        "scr_gleif.json"
+      ]
+    },
+    {
+      "id": "EV-014",
+      "area": "corporate",
+      "title": "Document the actual Alphabit/Cayman investment and management relationships",
+      "status": "open",
+      "finding": "Alphabit's issuer-filed 2018 SEC notice still identifies Dalma Capital Management as investment manager; no signed investment or management contract recovered.",
+      "remaining": "Executed fund-management and relevant GamiFi/Launchpool subscription/deal agreements, amendments, board approvals and settlement records from the actual fund, administrator/corporate secretary and Dalma.",
+      "custodian": "Relevant Alphabit entity, administrator and manager; invested companies and corporate record holders.",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1729768/000094562118000060/xslFormDX01/primary_doc.xml"
+      ],
+      "report_chapter": "corporate",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Cayman company WC-319009, LEI/name history and historical CIMA licence identity joined; a historical information memorandum recovered with provenance limits. Executed GamiFi agreements remain missing.",
+      "deeper_pass_chapter": "corporate"
+    },
+    {
+      "id": "EV-015",
+      "area": "corporate",
+      "title": "Recover transfers between the old and new operating entities",
+      "status": "open",
+      "finding": "No signed instrument for the switch to Panama recovered. Published operator changes and migration statements remain distinct from legal asset/liability transfers.",
+      "remaining": "Old/new entity transfer and novation schedules, IP assignments, assumed customer obligations, consideration, ledger and platform/KYC data handover records.",
+      "custodian": "Predecessor and successor entities, advisers, accountants and corporate agents.",
+      "source_urls": [
+        "https://web.archive.org/web/20240424044933/https://launchpool.xyz/terms-conditions/",
+        "https://web.archive.org/web/20240320154301/https://app.launchpool.xyz/token-migration/"
+      ],
+      "report_chapter": "corporate",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Earlier operator terms recovered, but no executed Panama asset transfer, novation or liability assumption.",
+      "deeper_pass_chapter": "corporate",
+      "historical_source_titles": [
+        "LAUNCHPOOL_OWNERSHIP_AND_LAURA_2026-09-06.md"
+      ]
+    },
+    {
+      "id": "EV-016",
+      "area": "corporate",
+      "title": "Establish Laura’s actual authority and economic interests by date",
+      "status": "open",
+      "finding": "No private authority, equity or custody/handover record found.1 September 2022 succession announcement must remain separate from later onchain control events.",
+      "remaining": "Dated board delegations, employment/consulting terms, equity/token awards, bank mandates, revocations and custody/access handovers from Gamifi, historic Launchpool, Laura and relevant contractors.",
+      "custodian": "Employing/appointing entities, boards and historical record custodians; authenticated participant records.",
+      "source_urls": [
+        "https://gamifi-launchpad.medium.com/new-ceo-for-gamifi-451f0e5a2147"
+      ],
+      "report_chapter": "corporate",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Independent Portuguese team-page captures corroborate CEO succession; old podcast text persists separately. No private authority/equity/handover records.",
+      "deeper_pass_chapter": "corporate",
+      "historical_source_titles": [
+        "Research_Paper_GamiFi_Master_Investigation_2026-09-06.md"
+      ]
+    },
+    {
+      "id": "EV-017",
+      "area": "corporate",
+      "title": "Determine whether GamiFi actually used Yield or a specific corporate adviser",
+      "status": "narrowed",
+      "finding": "Yield's named liquidators (Cork Gully) and retained forensic provider (FRA) provide a concrete records-location lead: FRA reports restored databases and communications review. Cavenwell's current exact group entities identified. No actual GamiFi onboarding or engagement established.",
+      "remaining": "Yield corporate onboarding/referral/account and creditor records, if retained; Cavenwell's historical client, contracting entity, engagement scope, invoices and incorporation instructions.",
+      "custodian": "GamiFi finance records; Yield’s historical operator/liquidation custodian; the relevant adviser.",
+      "source_urls": [
+        "https://yield.app/",
+        "https://www.forensicrisk.com/case-studies/yield-app",
+        "https://corkgully.com/liquidators-appointed-to-yield-app-to-oversee-insolvency-proceedings/",
+        "https://cavenwell.io/legal-and-regulatory"
+      ],
+      "report_chapter": "corporate",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Actual Yield gazettes, strike-off entry and later court listing recovered; Cavenwell incorporation/personnel evidence added. No actual GamiFi engagement.",
+      "deeper_pass_chapter": "corporate"
+    },
+    {
+      "id": "EV-018",
+      "area": "fundraising",
+      "title": "Reconcile actual fundraising and use of proceeds",
+      "status": "open",
+      "finding": "The five-round $3.055m/180m-GMI financing schedule remains a plan. The indexed MEXC recap repeats private, Launchpool strategic and January public fundraising claims without establishing receipts or spending. Hosted-project withdrawals cannot be added to issuer financing as another raise.",
+      "remaining": "Round-level executed subscriptions, cash/token receipts, delivery and refund ledgers, fee invoices, expenses and closing treasury reconciliation. GamiFi, Launchpool allocation administrator, investors, accountants.",
+      "custodian": "GamiFi, Launchpool allocation administrator, investors and accountants.",
+      "source_urls": [
+        "https://web.archive.org/web/20220221193850/https://gamifi.gg/gamifi-litepaper-1.1.pdf",
+        "https://blog.mexc.com/mexc-ama-gamefi-session-with-laura-and-casey/"
+      ],
+      "report_chapter": "fundraising",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Full MEXC interview reiterates fundraising categories; actual proceeds and spending remain unreconciled.",
+      "deeper_pass_chapter": "fundraising"
+    },
+    {
+      "id": "EV-019",
+      "area": "fundraising",
+      "title": "Determine the terms and prices actual IDO buyers accepted",
+      "status": "narrowed",
+      "finding": "Version-checked ID mapping and dated frontend prices/targets now support campaign-specific queries. GAMI's additional $150k display and Time Raiders' corrected $0.022 are preserved. A published display is not evidence of each buyer's checkout acceptance or amount charged.",
+      "remaining": "Versioned checkout/customer and issuer terms, exact payment/allocation receipts and executed price settings. GamiFi, issuers, purchasers; original-project `Funding`/allocation-rate history and the named distribution contracts.",
+      "custodian": "GamiFi and hosted issuers; launchpad payment systems; purchasers.",
+      "source_urls": [
+        "https://web.archive.org/web/20220314145410id_/https://app.gamifi.gg/_nuxt/83c772d.js",
+        "https://web.archive.org/web/20220328171520id_/https://app.gamifi.gg/_nuxt/5c41e54.js",
+        "https://web.archive.org/web/20220921100142id_/https://app.gamifi.gg/_nuxt/c2c9d04.js"
+      ],
+      "report_chapter": "fundraising",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Contemporaneous staking terms and external Shibafriend offer changes recovered; individual buyer acceptance remains unproved.",
+      "deeper_pass_chapter": "fundraising"
+    },
+    {
+      "id": "EV-020",
+      "area": "fundraising",
+      "title": "Reconcile ShibaFriend and FOMO refunds and later distributions",
+      "status": "narrowed",
+      "finding": "Original FOMO v1/ID8 and later FOMO v2/ID1 are distinguished. Shibafriend's cancelled status is attached to v1/ID9. FOMO's September release separately describes legacy BSC migration and seed/private dashboard claims, which must not be counted as GamiFi refunds.",
+      "remaining": "Purchaser choice notices, original funded allocations, replacement rights, compensation/refund hashes, FOMO migration linkage and completed claims. GamiFi, Shibafriend, FOMO, purchasers and settlement providers.",
+      "custodian": "GamiFi, hosted issuer, settlement provider and individual purchasers.",
+      "source_urls": [
+        "https://web.archive.org/web/20220921100110id_/https://app.gamifi.gg/_nuxt/6e7648d.js",
+        "https://gamifi-launchpad.medium.com/shibafriend-ido-announcement-e57f229783f7",
+        "https://medium.com/fomo-lab/fomo-lab-launches-their-product-ecosystem-alongside-the-fomo-token-4c2bb577f47c"
+      ],
+      "report_chapter": "fundraising",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Specific Shibafriend supply, release and exchange-lock changes recovered from other offering venues; no completed GamiFi refund ledger.",
+      "deeper_pass_chapter": "fundraising",
+      "publication_correction": "Historical field retained for chronology. Later 7 September reviews supersede incomplete refund/mint coverage: all 23 non-dust original ShibaFriend funding addresses were repaid, with 168 BUSD base units unmatched; all 194 paid Mystery Box mints had matching project contributions. Wider rights, other mint methods and human attribution remain separate. See README report precedence."
+    },
+    {
+      "id": "EV-021",
+      "area": "fundraising",
+      "title": "Reconcile paid NFT access with benefits actually available",
+      "status": "narrowed",
+      "finding": "Public `MemberCard.sol` makes paid buys distinguishable from free/admin issuance and separates purchase from membership activation. Initial source treasury matches an already connected wallet. Historical deployed-code correspondence and complete purchase/usage reconstruction are not established here.",
+      "remaining": "Historical implementations, `buy` receipts/BUSD payments, activation/extension/counter histories, vendor usage and available IDOs, October 2023 accepted notices and refunds. GamiFi, developer/hosting/payment records, NFT holders.",
+      "custodian": "GamiFi app/payment and customer records; NFT holders.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/sheandev/gamifiContracts/main/contracts/MemberCard.sol"
+      ],
+      "report_chapter": "fundraising",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Membership contract states/handovers and archived account/NFT usage structure recovered; MEXC original preserves first-come purchase qualification. Full payment/activation/benefit accounting remains missing.",
+      "deeper_pass_chapter": "fundraising"
+    },
+    {
+      "id": "EV-022",
+      "area": "fundraising",
+      "title": "Reconcile every Mystery/Duke mint and matching burn historically",
+      "status": "open",
+      "finding": "Prior runtime-match result remains controlling: public purchases and owner batches have different contribution/burn accounting. This pass did not complete all historical mint calls, reserve changes or upgrade intervals.",
+      "remaining": "Full mint-method ledger, paired buyer/reserve sink transfers, reserve deposits/withdrawals and historical implementation mapping. Public chain archives; GamiFi treasury/developers and publication approvers.",
+      "custodian": "Public chain archive; GamiFi developers, treasury and publication approvers.",
+      "source_urls": [
+        "https://sourcify.dev/server/v2/contract/56/0xced850373d573b58d2494c41f04d1fe34b965dfe?fields=all",
+        "https://sourcify.dev/server/v2/contract/56/0x1979dac9cff265bd446d08b5a162c05e417196e2?fields=all"
+      ],
+      "report_chapter": "fundraising",
+      "baseline_status": "open",
+      "deeper_pass_finding": "No complete new Mystery/Duke lifetime mint/burn/reserve ledger.",
+      "deeper_pass_chapter": "fundraising",
+      "publication_correction": "Historical field retained for chronology. Later 7 September reviews supersede incomplete refund/mint coverage: all 23 non-dust original ShibaFriend funding addresses were repaid, with 168 BUSD base units unmatched; all 194 paid Mystery Box mints had matching project contributions. Wider rights, other mint methods and human attribution remain separate. See README report precedence."
+    },
+    {
+      "id": "EV-023",
+      "area": "fundraising",
+      "title": "Verify staking deposits, restrictions and rewards",
+      "status": "narrowed",
+      "finding": "Current `StakingV3` source isolates principal from excess balance in owner withdrawals but does not separately reserve unpaid rewards. Owner-adjustable settings and reward-before-principal repayment identify the needed historical tests. Refer to the blockchain chapter for its separate deployment matching and dated state results.",
+      "remaining": "Pool-specific historical configurations, complete depositor principal/reward calculations, reserve funding and actual payments, dated restrictions and disclosures accepted. Chain archive, operations/developers, users and accountants.",
+      "custodian": "Public chain data; GamiFi operations/developers; users and treasury record holders.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/sheandev/gamifiContracts/main/contracts/StakingV3.sol",
+        "https://raw.githubusercontent.com/sheandev/gamifiContracts/main/scripts/deployStakingV3.js"
+      ],
+      "report_chapter": "fundraising",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Two-pool public offer recovered and matched by historical configuration; fresh principal snapshots and 46.02m-GMI replenishment accounting added.",
+      "deeper_pass_chapter": "fundraising"
+    },
+    {
+      "id": "EV-024",
+      "area": "fundraising",
+      "title": "Authenticate Laura’s statements and identify authors, approvers and knowledge",
+      "status": "narrowed",
+      "finding": "Full MEXC page still was not recovered; indexed results are not a full authenticated copy. Episode 33's preserved audio was identified but **not transcribed in this pass**. Publicly named participants and later company notices do not supply private approval/knowledge records.",
+      "remaining": "MEXC publisher original; time-aligned episode 33 transcript and recording date; drafts, revisions and publication/approval correspondence. MEXC, podcast producer, participants and company communications custodian.",
+      "custodian": "Publisher, podcast producer, company communications record holders and relevant participants.",
+      "source_urls": [
+        "https://blog.mexc.com/mexc-ama-gamefi-session-with-laura-and-casey/",
+        "https://podcasts.captivate.fm/media/1e2e3b94-c139-4008-8369-9fff25175ab3/b43ecad1-428f-4afe-83fa-b0ddafa748d4.mp3"
+      ],
+      "report_chapter": "fundraising",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Original MEXC publisher interview recovered from February 2022 and compared with October capture; private publication approvals and signed diligence documents remain missing.",
+      "deeper_pass_chapter": "fundraising"
+    },
+    {
+      "id": "EV-025",
+      "area": "fundraising",
+      "title": "Obtain actual buyer accounts of reliance and economic exposure",
+      "status": "open",
+      "finding": "No authenticated buyer account or purchaser-specific loss/recovery ledger was obtained. Named campaigns and distribution addresses make the request more precise. Aggregate prices or wallet outflows do not substitute for an individual's economic record.",
+      "remaining": "Dated offer/messages, consideration paid, accepted rights, claims/refunds, sales/recoveries and remaining exposure, linked to the representation relied on. Purchasers or authorized representatives and platform records.",
+      "custodian": "Adult purchasers and their authorized representatives; issuer payment records.",
+      "source_urls": [],
+      "report_chapter": "fundraising",
+      "baseline_status": "open",
+      "deeper_pass_finding": "No authenticated individual reliance or net-exposure packet obtained.",
+      "deeper_pass_chapter": "fundraising",
+      "publication_correction": "Historical field retained for chronology. Later 7 September reviews supersede incomplete refund/mint coverage: all 23 non-dust original ShibaFriend funding addresses were repaid, with 168 BUSD base units unmatched; all 194 paid Mystery Box mints had matching project contributions. Wider rights, other mint methods and human attribution remain separate. See README report precedence."
+    },
+    {
+      "id": "EV-026",
+      "area": "fundraising",
+      "title": "Verify advertised game, NFT-series and integration delivery",
+      "status": "narrowed",
+      "finding": "Avark's own case study attributes app, staking, Mystery Boxes and mini-game development to the agency. This corroborates a development trail. A separate Time Raiders check documents current Steam status and publisher roadmap. No complete Ultimate Fighters release, four missing embedded game payloads, transferable-reward ledger or Realm acceptance record was recovered.",
+      "remaining": "Dated release packages, deployment/hosting logs, game/reward backends, NFT contract/mint records, partner acceptance and user availability records. GamiFi, Avark/actual contractors, Realm/issuers and original users.",
+      "custodian": "GamiFi, contractors, hosting/release custodians, partners and users with original releases.",
+      "source_urls": [
+        "https://avark.agency/case-studies/gamifi",
+        "https://gamifi-launchpad.medium.com/mini-games-4b383eb7b0c4",
+        "https://store.steampowered.com/app/2410900/Time_Raiders/",
+        "https://timeraiders.io/"
+      ],
+      "report_chapter": "fundraising",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "HYPE first-party Shibafriend association found; full integrations, user availability and acceptance records remain missing.",
+      "deeper_pass_chapter": "fundraising"
+    },
+    {
+      "id": "EV-027",
+      "area": "fundraising",
+      "title": "Obtain the claimed audit and deployment sign-off",
+      "status": "narrowed",
+      "finding": "GitHub API confirms PR13 closed unmerged and PR25 merged; both bodies are empty and both review lists empty. PR25 touches six non-token files. It cannot authenticate the separate MEXC claim that PeckShield audited the token contract.",
+      "remaining": "Executed engagement/scope, final signed report, audited commit, deployment/upgrade addresses, remediation review and approval. Actual auditor, GamiFi/developers/deployment approver; PeckShield if involved.",
+      "custodian": "PeckShield if involved; GamiFi/development contractor; the actual auditor and deployment approver.",
+      "source_urls": [
+        "https://github.com/sheandev/gamifiContracts/pull/13",
+        "https://github.com/sheandev/gamifiContracts/pull/25",
+        "https://github.com/sheandev/gamifiContracts/pull/25/files"
+      ],
+      "report_chapter": "fundraising",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Audit representation preserved in original dated interview; public publication tree checked; actual audit/report-to-deployment sign-off remains missing.",
+      "deeper_pass_chapter": "fundraising"
+    },
+    {
+      "id": "EV-028",
+      "area": "fundraising",
+      "title": "Establish material-date jurisdiction and offering classification",
+      "status": "open",
+      "finding": "Current GamiFi LinkedIn lists London headquarters; that does not locate actual 2022 decisions or buyers. BVI wording and later residence remain insufficient. No purchaser geography or authenticated operating-location set was recovered.",
+      "remaining": "Contemporaneous decision/operating locations, targeting and buyer evidence, executed rights/consideration and relevant operator/registration records. Company, purchasers, authorized operational and regulatory record holders.",
+      "custodian": "Company, purchasers, relevant regulators and authorized operational record holders.",
+      "source_urls": [
+        "https://uk.linkedin.com/company/gamifi-gg"
+      ],
+      "report_chapter": "fundraising",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Korean company-release publication trail recovered; publication reach does not establish operating or buyer residence.",
+      "deeper_pass_chapter": "fundraising"
+    },
+    {
+      "id": "EV-029",
+      "area": "blockchain",
+      "title": "Complete the intervening Launchpool history and affected-user outcomes",
+      "status": "open",
+      "finding": "The prior Launchpool book remains reconciled at pre/post/current snapshots: 7,495 original schedules and a 14m-GMI deficit. Fresh public log acquisition did not produce the lifetime intervening census.",
+      "remaining": "Uninterrupted transfers/refills/claims/control/upgrade event census and transaction receipts, reconciled in chronological order.",
+      "custodian": "Archive-capable public chain sources; GamiFi/Launchpool and affected users.",
+      "source_urls": [],
+      "report_chapter": "blockchain",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Complete matching incoming-GMI window from 10–18 May 2023 found no Launchpool receipts; lifetime vesting history remains incomplete.",
+      "deeper_pass_chapter": "blockchain",
+      "historical_source_titles": [
+        "Research_Paper_GamiFi_Master_Investigation_2026-09-06.md",
+        "quick_100m.json",
+        "binance_100m.json",
+        "public_100m.json"
+      ]
+    },
+    {
+      "id": "EV-030",
+      "area": "blockchain",
+      "title": "Extend bounded onward-wallet and funding inventories",
+      "status": "narrowed",
+      "finding": "Pinned onward-wallet nonce 214 versus the prior inventory ending at nonce 73 establishes 140 further nonce increments outside prior coverage; the ba4 recipient has nonce 209. No receipt classification or human attribution supplied.",
+      "remaining": "All receipts and inbound/onward native/token/internal/allowance transfers, then business and exchange attribution.",
+      "custodian": "Public chain archive/indexer; counterparties if eventually identified.",
+      "source_urls": [],
+      "report_chapter": "blockchain",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Six replenisher transactions and three additional onward-wallet receipts verified; upstream funding and intervening nonces remain open.",
+      "deeper_pass_chapter": "blockchain",
+      "historical_source_titles": [
+        "f4_nonce_pinned.json",
+        "ba4_nonce_pinned.json",
+        "observation_header.json"
+      ]
+    },
+    {
+      "id": "EV-031",
+      "area": "blockchain",
+      "title": "Reconstruct remaining vesting obligations and historical token controls",
+      "status": "narrowed",
+      "finding": "Both the 23m and 7m sources are verified StakingV3 proxies. Recorded principal is unchanged while balances drop by 23m and 7m GMI; principal shortfalls become 23,752,892.530640167718196356 and 6,715,483.919657720178350003 GMI. Exact historical bytecode match and four owner setter transactions on 9 May 2023 retrieved. A successful 463.70326268367603-GMI user stake into the 7m pool is verified 3h33m14s after its withdrawal; this adds principal rather than curing the shortfall.",
+      "remaining": "Complete individual principal/reward reconciliation; earlier 23m-pool shortage origin; all refills, user payouts and historical upgrades/settings; deployed token and anti-bot controls inventory.",
+      "custodian": "Public chain and preserved development records; GamiFi developers/contract administrators.",
+      "source_urls": [
+        "https://sourcify.dev/server/v2/contract/56/0x4e9fcbbbca286a5be04bdfc9a7f7babb43253e55?fields=all",
+        "https://github.com/sheandev/gamifiContracts/blob/main/contracts/StakingV3.sol"
+      ],
+      "report_chapter": "blockchain",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "46,020,000 GMI replenishment sequence and exact restoration of smaller-pool principal backing verified; larger-pool shortage and reward/user reconciliation remain.",
+      "deeper_pass_chapter": "blockchain",
+      "historical_source_titles": [
+        "staking_summary.json",
+        "settings_summary.json",
+        "withdrawal_receipt.json",
+        "refill_crossing_summary.json"
+      ]
+    },
+    {
+      "id": "EV-032",
+      "area": "blockchain",
+      "title": "Test liquidity and manipulation allegations against complete relevant trading",
+      "status": "open",
+      "finding": "Existing bounded trading reconstruction and the 44m-GMI sale receipt are retained. No complete DEX/CEX event and trading census or manipulation conclusion produced.",
+      "remaining": "All relevant Swap/Mint/Burn/Sync and LP-transfer events; token controls and matched market dates; CEX customer orders, fills and withdrawals.",
+      "custodian": "Public archive data; exchange, LP/custody and company trading record holders.",
+      "source_urls": [],
+      "report_chapter": "blockchain",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Selected swap receipts extended; complete GMI trading/liquidity and centralized order history remain missing.",
+      "deeper_pass_chapter": "blockchain",
+      "historical_source_titles": [
+        "Research_Paper_GamiFi_Master_Investigation_2026-09-06.md"
+      ]
+    },
+    {
+      "id": "EV-033",
+      "area": "kidlet",
+      "title": "Establish whether contest entries were actually received and awarded",
+      "status": "open",
+      "finding": "The official channel Videos-page response still exposes six public uploads, with no title identifying a winner or award result. No entry-to-selection-to-payout mapping was recovered; the already documented invitation and June 11 token timing remain insufficient to establish an actual award.",
+      "remaining": "Dated receipt and selection registers with anonymized entrant IDs, aggregate entrant/winner counts, complete approved rules, exact payout transaction IDs and publication-permission/status records. Private, deleted, unlisted and other-channel uploads remain outside the six-card check.",
+      "custodian": "Historical project organizers and authorized mailbox/channel custodians; adult representatives holding originals.",
+      "source_urls": [
+        "https://www.youtube.com/channel/UC2sui4vaP9sWpevdKbytQUA/videos",
+        "https://web.archive.org/web/20221210141519id_/https://www.youtube.com/watch?v=3ydvqwGaw0o"
+      ],
+      "report_chapter": "kidlet",
+      "baseline_status": "open",
+      "deeper_pass_finding": "No contest entry, adjudication or prize-payment ledger recovered.",
+      "deeper_pass_chapter": "kidlet"
+    },
+    {
+      "id": "EV-034",
+      "area": "kidlet",
+      "title": "Recover consent, access, retention and post-project custody records",
+      "status": "narrowed",
+      "finding": "No new historical parental-consent, mailbox administrator, forwarding, access, retention/deletion or later-custody record was recovered. The previously authenticated submission request to the project's published submission mailbox establishes the solicitation route, not actual receipt, absent safeguards, public access or an illicit sale.",
+      "remaining": "Approved parent notices and consent/publication-permission versions; mailbox/provider account and dated administrator/delegate/forwarding records; retention, deletion and backup logs; records distinguishing any processing after June 2022 from the original contest. Use aggregate/anonymized records first.",
+      "custodian": "Historical project/mailbox provider and authorized administrators; relevant adult data representatives.",
+      "source_urls": [
+        "https://web.archive.org/web/20221210141519id_/https://www.youtube.com/watch?v=3ydvqwGaw0o",
+        "https://web.archive.org/web/20221210005341id_/https://kidlet.io/"
+      ],
+      "report_chapter": "kidlet",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Original contest-period certificate and historical WARC IP record recovered; consent, mailbox use/access and retention remain unproved.",
+      "deeper_pass_chapter": "kidlet"
+    },
+    {
+      "id": "EV-035",
+      "area": "kidlet",
+      "title": "Match the reviewed wallet source to the released application",
+      "status": "narrowed",
+      "finding": "Primary GitHub records identify development-account leads: ten returned commit-author associations with isaganiesteron and one README edit with baconbkk. The known repository has one returned master branch, no returned releases/tags/forks, and no APK/AAB/IPA in its complete 202-entry tree. The advertised Play package endpoint returned 404. No signed production binary or source-to-release match was recovered.",
+      "remaining": "Authenticated historical APK/AAB, SHA-256, package/version and signing certificate; matching build logs/dependencies/source commit; Play publisher/release records, commissioning and release approvals. Resolve com.Kidlet.app versus com.kidletcoin.app and evaluate production behavior separately from the established source defect.",
+      "custodian": "Original developer/release publisher, app-store/release custodian and users with authentic historical installers.",
+      "source_urls": [
+        "https://api.github.com/repos/baconbkk/Kidlet/commits?per_page=100",
+        "https://api.github.com/repos/baconbkk/Kidlet/git/trees/d8c2e9b3a364734a17bead61f5549672dfb73de6?recursive=1",
+        "https://api.github.com/repos/baconbkk/Kidlet/releases?per_page=100",
+        "https://api.github.com/repos/baconbkk/Kidlet/branches?per_page=100",
+        "https://github.com/baconbkk/Kidlet/commit/d19d0e45823657cdc7923774f1c99caad78ca66e",
+        "https://play.google.com/store/apps/details?id=com.kidletcoin.app"
+      ],
+      "report_chapter": "kidlet",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Broader source/package archive searches found no authenticated production APK/AAB/IPA matched to the reviewed source.",
+      "deeper_pass_chapter": "kidlet"
+    },
+    {
+      "id": "EV-036",
+      "area": "kidlet",
+      "title": "Recover quiz backend and rewards-economy delivery evidence",
+      "status": "open",
+      "finding": "The official channel still lists the quiz beta demonstration. No authenticated quiz binary/backend, named merchant settlement, redemption order or customer receipt was recovered. A bounded public repository name/description check identified no Kidlet quiz. The wallet source, email contest and quiz remain separate evidence paths.",
+      "remaining": "Quiz source/build and production package/service manifest, backend schema and actual field/transmission evidence, notices and anonymized reward-event ledger; executed merchant agreements, redemption orders and settlement/customer receipts proving delivered KID use.",
+      "custodian": "Project developers/operators, merchants, adult users and relevant service custodians.",
+      "source_urls": [
+        "https://www.youtube.com/channel/UC2sui4vaP9sWpevdKbytQUA/videos",
+        "https://api.github.com/users/baconbkk/repos?per_page=100",
+        "https://api.github.com/users/isaganiesteron/repos?per_page=100"
+      ],
+      "report_chapter": "kidlet",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Regional publication and citation lineage checked; no production quiz backend or merchant settlement records.",
+      "deeper_pass_chapter": "kidlet"
+    },
+    {
+      "id": "EV-037",
+      "area": "kidlet",
+      "title": "Identify curriculum commissioning and later channel/domain control",
+      "status": "narrowed",
+      "finding": "GitLab platform events and merge requests add account-specific curriculum contribution leads: msali123 (5984591) proposed README/image work; baconbkk (5983554) pushed an empty image-directory placeholder and opened MR !4. The known uploader kln_nurv remains associated with project creation and the published PDF upload. An editable ODT predecessor was recovered. Current MR status/branch ancestry show the proposals were not accepted ancestors of the published PDF. Matching baconbkk handles across platforms remain a lead, not verified common human control.",
+      "remaining": "Executed commissioning scope, invoices/payment and acceptance records; uploader/contributor role and account-control attestations; original ODT provenance; historical GitLab roles/audit history, July 2020 publication approval, and dated channel/domain/mailbox ownership/handover records. No funding or actual later-domain operator attribution was established.",
+      "custodian": "Original adult project participants; legitimate GitLab/channel/domain record holders.",
+      "source_urls": [
+        "https://gitlab.com/api/v4/projects/18610512/events?per_page=100",
+        "https://gitlab.com/api/v4/projects/18610512/merge_requests?state=all&per_page=100",
+        "https://gitlab.com/api/v4/projects/18610512/repository/branches?per_page=100",
+        "https://gitlab.com/free-blockchain-curriculum/free-blockchain-curriculum/-/merge_requests/4",
+        "https://gitlab.com/free-blockchain-curriculum/free-blockchain-curriculum/-/merge_requests/3",
+        "https://gitlab.com/free-blockchain-curriculum/free-blockchain-curriculum/-/commit/def755ab4fdef99bd9398740d2151975bddfcfe6",
+        "https://gitlab.com/api/v4/projects/18610512/repository/files/blockchain-curriculum.odt/raw?ref=latest"
+      ],
+      "report_chapter": "kidlet",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Historical mail/cPanel certificate footprint and October 2023 wildcard change identified; commissioning and human handover remain missing.",
+      "deeper_pass_chapter": "kidlet"
+    },
+    {
+      "id": "EV-038",
+      "area": "nem",
+      "title": "Explain the twelve SEA payments and nine onward issuer transfers",
+      "status": "open",
+      "finding": "Exact twelve SEA references and nine issuer payments remain documented in the prior chain report; derivative 21-transaction target register produced. Contemporary Supernode operator discussion now corroborates the separate NCPAYOUT account role, helping classify the prior 183,273-XEM reward category without treating it as a KID grant.",
+      "remaining": "Original contracts, invoices, payee ledger, conversion adjustments and payment approvals; invoice purpose and final benefit of the 12/9 payments still unresolved.",
+      "custodian": "NEM regional/central finance records, relevant employer/contractor and account custodians.",
+      "source_urls": [
+        "https://forum.nem.io/t/nem-supernode-rewards-program/1735?page=118",
+        "https://forum.nem.io/t/how-long-will-nf-fund-each-region/22488",
+        "nem_payment_targets.json"
+      ],
+      "report_chapter": "nem",
+      "baseline_status": "open",
+      "deeper_pass_finding": "The 21 previously indexed NEM payments remain unclassified by original invoice/contract purpose.",
+      "deeper_pass_chapter": "nem"
+    },
+    {
+      "id": "EV-039",
+      "area": "nem",
+      "title": "Establish NEM key custody and authorization by date",
+      "status": "open",
+      "finding": "Previously reconstructed keys/thresholds remain baseline; February 2019 official statement supplies CFO release with ExCo/Council approval as a benchmark, not a human custody mandate.",
+      "remaining": "Dated signed key assignments, human custody/handover records and transaction-specific instructions.",
+      "custodian": "Former Foundation/Trust corporate and technical custodians; project signer record holders.",
+      "source_urls": [
+        "https://forum.nem.io/t/nem-foundation-update-february-2019/21962"
+      ],
+      "report_chapter": "nem",
+      "baseline_status": "open",
+      "deeper_pass_finding": "July 2019 archive labels the exact issuer Gemdealer, with a 2014 subscription statement to test; no civil identity or continuous custody established.",
+      "deeper_pass_chapter": "nem"
+    },
+    {
+      "id": "EV-040",
+      "area": "nem",
+      "title": "Obtain historical XEM exchange customer and settlement mappings",
+      "status": "narrowed",
+      "finding": "June 30, 2026 Bittrex Bermuda liquidator update confirms platform closure on May 28, 2026 and directs account-record requests to the joint liquidators. Official homepage distinguishes Liechtenstein ALPS Trust and Bermuda procedures.",
+      "remaining": "First establish exact historical exchange contracting entity and customer migrations, then deposit-message/customer mapping, credits, trades, withdrawals and bank settlements. Old tagged deposits are not yet assigned to Bermuda or any human.",
+      "custodian": "Historical exchange/service operator or successor record custodian, once verified.",
+      "source_urls": [
+        "https://doanegrantthornton-docs.webpal.net/document-folder/desc/docul8LWsxcWho7J/CreditorUpdates/Bittrex%20Global%20%28Bermuda%29%20Limited/Document.wdoc",
+        "https://bittrexglobal.com/"
+      ],
+      "report_chapter": "nem",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "No new exchange customer mapping or settlement ledger.",
+      "deeper_pass_chapter": "nem"
+    },
+    {
+      "id": "EV-041",
+      "area": "nem",
+      "title": "Recover formal conflict and resource-allocation approvals",
+      "status": "narrowed",
+      "finding": "Recovered exact original IDs for conflict, best-interest and information-sharing policies from Foundation February 2019 forum JSON. Current exports return 410; tested exact ethics-policy Wayback availability returned no snapshot. Public policy commitment is documented.",
+      "remaining": "Adopted historical policy text/effective date, signed acknowledgments, declarations, recusal and independent resource/post/event approval records.",
+      "custodian": "Foundation board/secretariat, financial record custodians and former responsible officers.",
+      "source_urls": [
+        "https://forum.nem.io/t/nem-foundation-update-february-2019/21962",
+        "https://forum.nem.io/t/nem-foundation-update-february-2019/21962.json"
+      ],
+      "report_chapter": "nem",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Contemporary November 2018 discussion recognizes Kidlet overlap; signed conflicts, recusals and resource approvals remain missing.",
+      "deeper_pass_chapter": "nem"
+    },
+    {
+      "id": "EV-042",
+      "area": "nem",
+      "title": "Verify election adjudication and later appointment authority",
+      "status": "open",
+      "finding": "Official September 2019 summary freshly confirms reported June 13 EGM appointment, August 29 AGM and later Council Honorary Secretary appointment sequence; no certified instruments recovered.",
+      "remaining": "Signed notices, quorum/proxies, minutes, constitution/bylaws, director filings and membership/KYC adjudication records. Prior full election count not rerun.",
+      "custodian": "NEM Foundation election/secretariat record holders; corporate custodian; relevant adult participants.",
+      "source_urls": [
+        "https://forum.nem.io/t/nem-foundation-update-september-2019/23549"
+      ],
+      "report_chapter": "nem",
+      "baseline_status": "open",
+      "deeper_pass_finding": "No newly recovered signed election or appointment records.",
+      "deeper_pass_chapter": "nem"
+    },
+    {
+      "id": "EV-043",
+      "area": "nem",
+      "title": "Reconcile the 2019 expense report to signed accounts and authorizations",
+      "status": "open",
+      "finding": "ROI report discussion and 2018 audited-accounts acceptance statement remain public; signed audit opinion and full financial statements not recovered. Published 27.3% versus 43% discrepancy remains unresolved.",
+      "remaining": "Signed 2018-2022 accounts/opinions, trial balances, related-party details, allocation bridge and transaction approvals. Directory auditor name is only a secondary lead.",
+      "custodian": "Foundation finance/auditor and current legal record custodian; relevant payees.",
+      "source_urls": [
+        "https://forum.nem.io/t/nem-foundation-2019-roi-report/24550",
+        "https://forum.nem.io/t/nem-foundation-update-september-2019/23549"
+      ],
+      "report_chapter": "nem",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Separate US Symbol Syndicate return recovered; it is not the Singapore Foundation audit or expense-allocation reconciliation.",
+      "deeper_pass_chapter": "nem"
+    },
+    {
+      "id": "EV-044",
+      "area": "nem",
+      "title": "Follow reserve spending, institutional asset transfers and wind-down custody",
+      "status": "narrowed",
+      "finding": "Original-format Gazette resolution read via mirror requires residual Foundation assets after liabilities to go to a qualifying Singapore charity/IPC with similar objects. Final-meeting notice identifies final liquidator account and records-disposition decision as concrete targets.",
+      "remaining": "Actual beneficiary resolution and receipt, liquidation account, custody/disposition minute, executed institutional transfers, reserve-to-fiat and spending reconciliation. Scheduled meeting does not prove actual donation or destruction.",
+      "custodian": "Foundation/Trust liquidators and auditors, NEM Group, reserve and portfolio record custodians.",
+      "source_urls": [
+        "https://www.sgpbusiness.com/get-pdf/eg/b521e32a-028b-11ed-90bf-f48e38c3a128",
+        "https://www.sgpbusiness.com/get-pdf/eg/7d291e1d-277a-11ed-90bf-f48e38c3a128",
+        "https://forum.nem.io/t/questions-to-the-community-daveh-davidshaw/26151/6"
+      ],
+      "report_chapter": "nem",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Missing reserve table recovered: three NIS sources and 125 Symbol destinations. Proposed award and dispute kept separate from actual settlement.",
+      "deeper_pass_chapter": "nem"
+    },
+    {
+      "id": "EV-045",
+      "area": "nem",
+      "title": "Verify claimed institutional delivery beyond announcements",
+      "status": "narrowed",
+      "finding": "FEU Tech primary report confirms a 2019 NEM educational appearance. IIUM Holdings describes first NEM-linked e-scroll launch in September 2019 and a distinct January 2022 Ethereum successor. EX Sports Bangkok centre is a different partnership from announced NEM/TTA project absent connecting evidence.",
+      "remaining": "Per-project contracts, acceptance/deployment logs, historical usage, paid invoices, renewals and precise Foundation role; NEM/TTA opening and lease not recovered.",
+      "custodian": "Foundation/project partners, landlords/vendors where actually relevant, and corporate record custodians.",
+      "source_urls": [
+        "https://www.feutech.edu.ph/feutech/features/cs-expo-2019-features-itamaraws-relevant-and-innovative-thesis-projects",
+        "https://www.iic.edu.my/wp-content/uploads/2022/03/Newsletter-14-Final.pdf",
+        "https://www.ex-sports.io/news/13"
+      ],
+      "report_chapter": "nem",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Malaysian government 2018 rollout record and Philippine university 2018 course-offering account recovered; payment/use reconciliation remains.",
+      "deeper_pass_chapter": "nem"
+    },
+    {
+      "id": "EV-046",
+      "area": "secondary",
+      "title": "Kaskade: settle campaign rules, scoring and payment completeness",
+      "status": "narrowed",
+      "finding": "Issuer retrospective states per-wallet USD-volume multipliers: >$10,000=1.1x, >$50,000=1.2x, cap 1.3x; no cap threshold or exact boundary/rounding rules. This adds specificity beyond launch straight-pro-rata wording.",
+      "remaining": "Accepted contemporaneous rule versions and approvals; Complete threshold table, cumulative versus marginal scoring, UTC/block cutoffs; All-wallet points exports, eligibility adjustments and distribution leaves/roots",
+      "custodian": "Kaskade, campaign partners and historical program/distributor record holders.",
+      "source_urls": [
+        "https://medium.com/@KaskadeFinance/kaskade-x-liquity-campaign-analysis-a0f0d48ee97f",
+        "https://deficollective.org/blog/kaskade-campaign-launch/"
+      ],
+      "report_chapter": "secondary",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Archived Kaskade leaderboard data model and gas-rebate representation recovered; final scoring rows and full settlement remain missing.",
+      "deeper_pass_chapter": "secondary"
+    },
+    {
+      "id": "EV-047",
+      "area": "secondary",
+      "title": "Kaskade: identify wallet controllers, mandates and Laura’s exact role dates",
+      "status": "open",
+      "finding": "Rechecked partner source spreadsheet, including collector 3ac0030a and upstream 68ad2081 funding leads; they supply addresses and transfer associations, not civil identity.",
+      "remaining": "Dated custody and signer mandates; Instructions and source-of-capital/trading agreements; Authenticated endpoint identities and Laura material-date authority records",
+      "custodian": "Kaskade, campaign partners, finance/custody record holders and authenticated participants.",
+      "source_urls": [
+        "https://deficollective.org/blog/kaskade-campaign-report/"
+      ],
+      "report_chapter": "secondary",
+      "baseline_status": "open",
+      "deeper_pass_finding": "No authenticated Kaskade human wallet controllers or mandates.",
+      "deeper_pass_chapter": "secondary",
+      "source_access_note": "The publicly linked source spreadsheet is cited through the DeFi Collective publisher article; its document-hosted URL is omitted in this edition."
+    },
+    {
+      "id": "EV-048",
+      "area": "secondary",
+      "title": "Kaskade: extend the public history and verify later operations",
+      "status": "narrowed",
+      "finding": "Pre-launch company release separately promises frequent-trader gas rebates; their actual ledger belongs in full net accounting. Prior documented Scroll launch remains corroborated.",
+      "remaining": "Redacted campaign swaps, route attribution and gas rebates; Added Liquity claimants prior trading/eligibility and missing incoming/collector/gas flows; Historical Scroll rules and documented domain/operator transition",
+      "custodian": "Public chain archives and platform archives; Kaskade/Scroll/partners and legitimate domain records.",
+      "source_urls": [
+        "https://www.accessnewswire.com/newsroom/en/banking-and-financial-services/kaskade-finance-closes-successful-pre-seed-round-841039",
+        "https://medium.com/@KaskadeFinance/kaskade-x-redacted-campaign-analysis-f169098f970f",
+        "https://scroll.ghost.io/kaskade-x-scroll/"
+      ],
+      "report_chapter": "secondary",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Earlier Portuguese prelaunch capture and later application backend provenance added; full campaign and later operating history remain incomplete.",
+      "deeper_pass_chapter": "secondary"
+    },
+    {
+      "id": "EV-049",
+      "area": "secondary",
+      "title": "MegaFans: reconcile models, offering scope and actual buyer outcomes",
+      "status": "narrowed",
+      "finding": "Launchblock identifies June 21–26 deposit dates, June 27–28 refund window, 15% TGE and five-month linear vesting. Republic withdrawal/refunds reaffirmed only for Republic campaign.",
+      "remaining": "Approved workbook/cash-flow bridge, authorship and distribution trail; Complete Reg S terms and actual executed agreements; Individual refund/token-delivery settlements and advisory/equity/token rights",
+      "custodian": "MegaFans issuer/entities and advisers; Republic; purchasers; model preparers.",
+      "source_urls": [
+        "https://launchblock.com/project/megafans",
+        "https://republic.com/megafans"
+      ],
+      "report_chapter": "secondary",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Archived 2022 tokenomics versions and primary 2024 venue contract accounting recovered; accepted offering versions and company-wide outcomes remain incomplete.",
+      "deeper_pass_chapter": "secondary"
+    },
+    {
+      "id": "EV-050",
+      "area": "secondary",
+      "title": "MBUCKS: verify sale settlement, staking and buyback execution",
+      "status": "narrowed",
+      "finding": "Launchblock explorer link targets 0x8d43Bdd99DB5a36ccb64f868f80Aa51B53FbcF4C; explorer access failed, so sale-linked address is not yet verified contract or token.",
+      "remaining": "Spores/Launchblock paid allocations, refund/vesting receipts and market-cap basis; Staking code/formula, actual accrual, reserves and payout history; Net-profit/buyback/burn ledger and reserve-category overlap explanation",
+      "custodian": "MegaFans, Spores, staking/treasury record holders and purchasers; public chain.",
+      "source_urls": [
+        "https://launchblock.com/project/megafans",
+        "https://bscscan.com/address/0x8d43Bdd99DB5a36ccb64f868f80Aa51B53FbcF4C",
+        "https://www.megafans.io/staking/index.html"
+      ],
+      "report_chapter": "secondary",
+      "baseline_status": "open",
+      "deeper_pass_finding": "Launchblock payment receipts reconcile 6,025 USDT deposited = 5,000 USDT refunded + 1,025 USDT withdrawn to the sale-owner wallet on 1 July 2024; complete staking/buyback accounting remains open.",
+      "deeper_pass_chapter": "secondary"
+    },
+    {
+      "id": "EV-051",
+      "area": "secondary",
+      "title": "MBUCKS: assess trading and application policy fit on actual evidence",
+      "status": "narrowed",
+      "finding": "Vidma identifies MegaNFT-only review and final source commit 797bba0cd5f7f6ef56db9a3a288c24b81c1f11b5; immutable GitHub commit exists. HTML contains conflicting template text; do not adopt unverified severity counts or extrapolate to apps/staking.",
+      "remaining": "Original audit PDF and deployed-bytecode/source match; Production binaries/backend releases and actual Appic/SDK/wallet/prize/KYC flows; Complete relevant holder/trade/liquidity and promotion-event histories",
+      "custodian": "Public chain/app archives; MegaFans developers/operators and authorized service records.",
+      "source_urls": [
+        "https://www.vidma.io/audit/megafans",
+        "https://github.com/megafans/SmartContracts/commit/797bba0cd5f7f6ef56db9a3a288c24b81c1f11b5",
+        "https://github.com/megafans/SmartContracts"
+      ],
+      "report_chapter": "secondary",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Historical Termly document UUID and regional app declarations recovered; actual production data flows remain unverified.",
+      "deeper_pass_chapter": "secondary"
+    },
+    {
+      "id": "EV-052",
+      "area": "secondary",
+      "title": "Nativz: reconcile accepted competition terms, prizes and safeguards",
+      "status": "narrowed",
+      "finding": "Official landing now entries-closed/VOD-linked; indexed organizer pages list two LoL cancellations and four confirmed Valorant teams. Secondary CS Codex gives revised CS2 format/result and original/replacement event IDs; live platform opens failed.",
+      "remaining": "Accepted entry terms, participant version/schedule notices and payout/refund bank records; Authoritative final exports for individual event IDs; Underlying accounts, school pilot/supervision records and actual newsletter-consent trail",
+      "custodian": "Nativz/league organizers, participants, Irish registry and relevant platform record holders.",
+      "source_urls": [
+        "https://company.irelandesportsleagues.com/alumni",
+        "https://www.challengermode.com/s/OfficeShowdown/tournaments/72fc0e53-7c11-4fa6-9250-08dec9cab7c4",
+        "https://www.challengermode.com/s/OfficeShowdown/tournaments/96a7a646-fdd9-41d7-ea83-08dedfe49566",
+        "https://www.challengermode.com/s/OfficeShowdown/tournaments/7de4f812-4f3f-433a-6813-08dee564ac5d",
+        "https://cscodex.com/Alumni_Summer_Showdown/2026"
+      ],
+      "report_chapter": "secondary",
+      "baseline_status": "narrowed",
+      "deeper_pass_finding": "Organizer pilot results and rules/platform evidence added; target alumni accepted terms, payments and safeguards remain unresolved.",
+      "deeper_pass_chapter": "secondary"
+    },
+    {
+      "id": "EV-053",
+      "area": "secondary",
+      "title": "Techstars/Cardano: validate remaining outcome metrics proportionately",
+      "status": "open",
+      "finding": "Official cohort and grant sources re-found. No anonymized completed-meeting/survey or later financing/revenue dataset located in targeted searches.",
+      "remaining": "Anonymized booked/completed/cancelled mentor-meeting ledger; Survey instrument and per-metric respondent denominators; Consented later financing/revenue outcomes with supporting evidence",
+      "custodian": "Techstars/Catalyst program evaluators and authorized anonymized participant reporting.",
+      "source_urls": [
+        "https://www.techstars.com/blog/program-news/introducing-the-2025-techstars-cardano-founder-catalyst-cohort",
+        "https://projectcatalyst.io/funds/13/cardano-partners-growth-and-acceleration/techstars-will-help-cardano-builders-grow-their-businesses-to-drive-cardanos-adoption"
+      ],
+      "report_chapter": "secondary",
+      "baseline_status": "open",
+      "deeper_pass_finding": "No new underlying completed-outcome dataset; prior accepted grant deliverables retained.",
+      "deeper_pass_chapter": "secondary"
+    }
+  ],
+  "publication_note": "Historical edition. Findings and access descriptions are dated to the research date shown. This public edition is limited to crypto-related research. Later evidence supersedes some earlier gaps: the 7 September ShibaFriend claims review records repayment to all 23 non-dust original funding addresses, with 168 BUSD base units of unmatched dust; the later Mystery Box review records matching project contributions for all 194 paid mints. These narrow results do not settle every wider claim or identify a human wallet controller. Consult the repository README for the latest report precedence before quoting an earlier unresolved finding. Source URLs, transaction hashes and archive dates remain the research locators; historical local file locators below are not assertions that those working files are distributed unchanged.",
+  "scope": "Crypto-related public research; historical technical and corporate findings with unresolved attribution clearly retained."
+}
