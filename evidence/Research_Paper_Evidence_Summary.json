@@ -1,0 +1,185 @@
+{
+  "records": 17719,
+  "files": 17767,
+  "uncompressed_bytes": 462180519,
+  "topics": {
+    "GamiFi": 16103,
+    "KidletCoin_NEM": 722,
+    "Launchpool_Corporate": 439,
+    "Related_Crypto_Projects": 69,
+    "ShibaFriend": 386
+  },
+  "representations": {
+    "structured-data": 15720,
+    "plain-text": 942,
+    "inert-web-text": 849,
+    "smart-contract-source-text": 63,
+    "feed-source-text": 3,
+    "tabular-data": 48,
+    "pdf-text-extraction": 44,
+    "spreadsheet-cell-extraction": 1,
+    "archive-record-text": 2,
+    "corporate-source-text-excerpts": 8,
+    "source-reference": 39
+  },
+  "records_with_direct_source_urls": 14249,
+  "records_with_incidental_links": 3150,
+  "reference_only_records": [
+    {
+      "record_id": "E-240f6792156b3824",
+      "label": "gazette_help.html"
+    },
+    {
+      "record_id": "E-26bf749204c9e0db",
+      "label": "gazette_2023_02_23_part2.pdf"
+    },
+    {
+      "record_id": "E-27a2a4d2abe6fa98",
+      "label": "alphabit_consultancy_16_Feb_2023_AA.pdf"
+    },
+    {
+      "record_id": "E-2aa234e9277ae734",
+      "label": "Historical_corporate_source"
+    },
+    {
+      "record_id": "E-3378ee8c82be7d8c",
+      "label": "gazette_2022_09_15_part2.pdf"
+    },
+    {
+      "record_id": "E-373bfd3c80bc7fb2",
+      "label": "gazette_2026_07_30_complete.pdf.txt"
+    },
+    {
+      "record_id": "E-41dfc6dbd1d36155",
+      "label": "ASOCIADOS_CARAJO_DEED_769_2023-01-31.pdf"
+    },
+    {
+      "record_id": "E-e43ad12851556e02",
+      "label": "gazette_2022_06_16_part1.pdf"
+    },
+    {
+      "record_id": "E-53f7b2fc27bc88ef",
+      "label": "03_ASOCIADOS_CARAJO_2025-05-07_AMENDMENT_DEED_10116.pdf"
+    },
+    {
+      "record_id": "E-5607ee6de7cf5ce0",
+      "label": "ASOCIADOS_CARAJO_DEED_10116_2025-05-07.pdf"
+    },
+    {
+      "record_id": "E-c8776d4d9fd11297",
+      "label": "gazette_2022_07_14_part2.pdf"
+    },
+    {
+      "record_id": "E-78819edb23f82ead",
+      "label": "launch_horizons_01_Sep_2023_AA.pdf"
+    },
+    {
+      "record_id": "E-817dfdeb881aaf50",
+      "label": "gazette_2022_09_15_part2.pdf.txt"
+    },
+    {
+      "record_id": "E-8baabe511a52501a",
+      "label": "alphabit_consultancy_11_Jul_2023_AA.pdf"
+    },
+    {
+      "record_id": "E-c139747cede56dac",
+      "label": "gazette_2026_03_26_complete.pdf"
+    },
+    {
+      "record_id": "E-8efb5ef38bab5a0a",
+      "label": "gazette_faq.html"
+    },
+    {
+      "record_id": "E-90dee7ffbc7166ac",
+      "label": "gibraltar_search_request_form.pdf"
+    },
+    {
+      "record_id": "E-9ed8b34c51c76bbd",
+      "label": "launch_pool_uk_accounts2021.pdf"
+    },
+    {
+      "record_id": "E-a655d0617c3a7a51",
+      "label": "gazette_2023_02_02_part2.pdf.txt"
+    },
+    {
+      "record_id": "E-e993e2fa93be2279",
+      "label": "gazette_2024_04_11_republished.pdf"
+    },
+    {
+      "record_id": "E-b1216cec9cb7541c",
+      "label": "launch_horizons_29_Oct_2024_AA.pdf"
+    },
+    {
+      "record_id": "E-b1248b12531c37f6",
+      "label": "gazette_2023_02_02_part2.pdf"
+    },
+    {
+      "record_id": "E-b4134f4b194b4433",
+      "label": "gazette_2022_06_16_part1.pdf.txt"
+    },
+    {
+      "record_id": "E-b55240b4af5caf7e",
+      "label": "gibraltar_profile_request_form.pdf"
+    },
+    {
+      "record_id": "E-b77633a40c4028f5",
+      "label": "01_ASOCIADOS_CARAJO_2023-01-31_INCORPORATION_DEED_769.pdf"
+    },
+    {
+      "record_id": "E-bae94a8e06616b6f",
+      "label": "gazette_2022_03_03_part2.pdf.txt"
+    },
+    {
+      "record_id": "E-bc102f9827cfb29e",
+      "label": "gazette_2024_04_11_republished.pdf.txt"
+    },
+    {
+      "record_id": "E-bc81796106fa7b4f",
+      "label": "gazette_2022_12_15_part1.pdf"
+    },
+    {
+      "record_id": "E-c07ae2a37fb8591c",
+      "label": "gazette_2023_02_23_part2.pdf.txt"
+    },
+    {
+      "record_id": "E-c2416fcfc5831f41",
+      "label": "gazette_2022_07_14_part2.pdf.txt"
+    },
+    {
+      "record_id": "E-c82097644df0063b",
+      "label": "gazette_2026_03_26_complete.pdf.txt"
+    },
+    {
+      "record_id": "E-6ac596ae5aae9fbb",
+      "label": "gibraltar_registry_profiles_guidance.pdf"
+    },
+    {
+      "record_id": "E-cf6f6d4d06a1f646",
+      "label": "gazette_2022_03_03_part2.pdf"
+    },
+    {
+      "record_id": "E-a2b36c827966385a",
+      "label": "gazette_2026_07_30_complete.pdf"
+    },
+    {
+      "record_id": "E-dbc9d70f6fb40a2d",
+      "label": "gazette_history.html"
+    },
+    {
+      "record_id": "E-e19c7f5a99604124",
+      "label": "launch_pool_uk_accounts2022.pdf"
+    },
+    {
+      "record_id": "E-e49ce9cedd1867dd",
+      "label": "alphabit_projects_uk_21_Nov_2019_NEWINC.pdf"
+    },
+    {
+      "record_id": "E-f16fcba8bd1a701e",
+      "label": "launch_pool_uk_incorporation.pdf"
+    },
+    {
+      "record_id": "E-fc91a35ed9e15520",
+      "label": "gazette_2022_12_15_part1.pdf.txt"
+    }
+  ]
+}
