@@ -1,0 +1,50 @@
+[
+  {
+    "path": "evidence/Research_Paper_Evidence_GamiFi_Part_01.tar.xz",
+    "files": 4391,
+    "bytes": 14337612,
+    "sha256": "de673c870a1943a1948a26575da6efefaf56a2f8585d9cea7b6b4caa2eb27672"
+  },
+  {
+    "path": "evidence/Research_Paper_Evidence_GamiFi_Part_02.tar.xz",
+    "files": 4172,
+    "bytes": 13621964,
+    "sha256": "a446f5559b5b3b3dc7adb69b980cfcf4ee94302a45d3bb0d0096dde0c0e411b5"
+  },
+  {
+    "path": "evidence/Research_Paper_Evidence_GamiFi_Part_03.tar.xz",
+    "files": 4446,
+    "bytes": 13915268,
+    "sha256": "39c41eec83246c73dfd3546d30ccf98984952db9df233f1cbb3916ca2737e859"
+  },
+  {
+    "path": "evidence/Research_Paper_Evidence_GamiFi_Part_04.tar.xz",
+    "files": 3137,
+    "bytes": 11613748,
+    "sha256": "1f7bf62dc55c1f261102161f1263ec6a682e93c1bddb6e45b4f771fb532b6493"
+  },
+  {
+    "path": "evidence/Research_Paper_Evidence_KidletCoin_NEM_Part_01.tar.xz",
+    "files": 723,
+    "bytes": 2214592,
+    "sha256": "e070a6bcd8975f2604c21aa30af03ac7c075be681d5ebc246c338838dd0769cc"
+  },
+  {
+    "path": "evidence/Research_Paper_Evidence_Launchpool_Corporate_Part_01.tar.xz",
+    "files": 440,
+    "bytes": 1448792,
+    "sha256": "6d80ce27d15fdf7c1ffaeb5fd766e61278817d53f8acf03b50f279659952d364"
+  },
+  {
+    "path": "evidence/Research_Paper_Evidence_Related_Crypto_Projects_Part_01.tar.xz",
+    "files": 69,
+    "bytes": 275972,
+    "sha256": "0c7eefbc95024542df183d6d915eb05c5e155e7a3f1a26b432a3d76f52bba5ea"
+  },
+  {
+    "path": "evidence/Research_Paper_Evidence_ShibaFriend_Part_01.tar.xz",
+    "files": 389,
+    "bytes": 1216292,
+    "sha256": "2f5baed51ff85ff53350e38e51f8fe7312a48eb719ca87a3d15bde027df2ce2e"
+  }
+]
